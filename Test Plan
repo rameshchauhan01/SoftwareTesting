@@ -1,0 +1,86 @@
+Test Plan
+     Outline of the test planning document is covered by the "Standard for Software  Test Documentation" (IEEE std 829-1998)
+A Test Plan is a document that describes the objectives, scope, approach and focus of the software testing effort. The process of preparing a test plan is a useful way to think through the efforts needed to validate the acceptability of a software product.
+Planning may be documented in the master test plan and in separate test plans for test levels such as system testing, acceptance testing etc.
+Contents of a Test Plan
+
+1. Introduction
+Description of this Document
+Related Documents
+Schedule and Milestones
+2. Resource Requirements
+Hardware
+Software
+Test Tools
+Staffing
+Responsibilities
+Training
+3. Features To Be Tested / Test Approach
+New Features Testing
+Regression Testing
+4. Features Not To Be Tested
+
+5. Test Deliverables
+
+6. Dependencies/Risks
+
+7. Entrance/Exit Criteria
+Entry Criteria
+    Entry Criteria define when to start testing such as at the beginning of a test level or when a set of tests is ready for execution.
+It covers Test environment availability and readiness, Test tool readiness in the test  environment, Testable code availability,  Test data availability.
+
+Exit Criteria
+    Exit Criteria define when to stop testing such as at the end of the test level or when a set of tests has achieved specific goal.
+It covers thoroughness measures, such as coverage of code, functionality or risk, Estimates of defect density or reliability measures, Cost, Residual risks, such as defects not fixed or lack of test coverage, Schedules such as those based on time to market.
+
+Test Estimation
+Two Approaches for estimating the test effort
+The Metrics Based Approach : Estimating the testing effort based on the metrics of the former or similar projects or based on typical values.
+The Expert Based Approach : Estimating the tasks based on estimates made by the owner of the tasks or by experts.
+Estimation depends on Characteristics of the product, Characteristics of the Development Process and The outcome of testing.
+
+Test Strategy, Test Approach
+Test Strategy is a high level document describing testing portion of SDLC (Software Development Life Cycle) for the release. It outlines different types of testing that will be performed for release i.e. APT (Application Product Test), IPT (Integration Product Test), Performance Test, UAT (User Acceptance Test), ORT (Operational Readiness Test). Test Strategy answers questions like What (what is the testing scope of the release), Why (objective of each testing type) and Who (which team is responsible) and other high level questions.
+
+Test Approach is a detailed document explaining details about a testing type i.e. different test approach will be created for different types of testing i.e. APT, IPT and performance test. Test Approach answers questions like What (what is the scope of particular testing type), How (details of testing for a particular testing type).
+
+Test Progress Monitoring
+The purpose of test monitoring is to provide feedback and visibility about test activities. Information to be monitored may be collected manually or automatically and may be used to measure exit criteria, such as coverage. Metrics may also be used to assess progress against the planned schedule and budget.
+
+Common metrics include :
+Percentage of work done in test case preparation / percentage of planned test cases prepared.
+Percentage of work done in test environment preparation
+Test case execution (number of test cases run or not run, passed or failed)
+Defect information (defect density, found and fixed, failure rate, re-test results)
+Test coverage of requirements, risks or code
+Subjective confidence of testers
+Dates of test milestones
+Testing costs
+Test Reporting
+Test Reporting is concerned with summarizing information about the testing endeavor. The outline of a test summary report is given in Standard for Software Test Documentation (IEEE Std 829-1998).
+Contents of a Test Report
+1. Scope
+    Identification
+    System Overview
+    Document Overview
+2. Reference Documents
+3. Overview of test results
+    Overall assessment of the software tested
+    Impact of test environment
+    Recommended improvements
+4. Detailed Test Results
+5. Test Log
+6. Notes
+7. Annexes
+
+Metrics
+Metrics should be collected during and at the end of a test level in order to assess adequacy of the test objectives for that level, adequacy of test approaches taken and effectiveness of the testing.
+
+Test Control
+Test Control describes any guiding or corrective actions taken as a result of information or metrics gathered and reported. Actions may affect any test activity and may affect any other software life cycle activity. 
+
+Configuration Management
+The purpose of Configuration Management is to establish and maintain integrity of the products of software or system.
+CM should ensure
+all items of the test ware are identified, version controlled, tracked for changes, related to each other and related to development items, so that traceability can be maintained throughout the test process.
+All identified documents and software items are referenced unambiguously in test documentation.
