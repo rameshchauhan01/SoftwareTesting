@@ -1,0 +1,103 @@
+Statement, Branch and Path coverage
+Statement Coverage:
+In this the  test case  is executed in such a way that every statement  of the code  is 
+executed at least once.
+
+Branch/Decision Coverage:
+Test coverage criteria requires enough test cases such that each condition in a decision takes on all possible outcomes at least once, and each point of entry to a program or subroutine is invoked at least once.  That is, every branch (decision) taken each way, true and false. It helps in validating all the branches in the code making sure that no branch leads to abnormal behavior of the application. 
+
+Path Coverage:
+In this the test case is executed in such a way that every path is executed at least once. 
+All possible control paths taken, including all loop paths taken zero, once, and multiple (ideally, maximum) items in path coverage technique, the test cases are prepared based on the logical complexity measure of a procedural design. In this type of testing every statement in the program is guaranteed to be executed at least one time. Flow Graph, Cyclomatic Complexity and Graph Metrics are used to arrive at basis path
+
+Cyclomatic Complexity
+Cyclomatic Complexity for a flow graph is computed in one of three ways:
+
+The numbers of regions of the flow graph correspond to the Cyclomatic complexity.
+
+Cyclomatic complexity, V(G), for a flow graph G is defined as
+
+V(G) = E – N + 2
+
+where E is the number of flow graph edges and N is the number of flow graph nodes.
+
+Cyclomatic complexity, V(G), for a graph flow G is also defined as
+
+V(G) = P + 1
+
+Where P is the number of predicate nodes contained in the flow graph G.
+
+Example: Consider the following flow graph
+
+
+
+Region, R= 6
+Number of Nodes = 13
+Number of edges = 17
+Number of Predicate Nodes = 5
+
+Cyclomatic Complexity, V( C) :
+
+V( C ) = R = 6;
+Or
+
+V(C) = Predicate Nodes + 1
+=5+1 =6
+Or
+
+V( C)= E-N+2
+= 17-13+2
+
+Nodes represent entries, exits, decisions and each statement of code.
+Edges represent non-branching and branching links between nodes.
+
+
+Example:
+Read P 
+Read Q 
+IF P+Q > 100 THEN 
+Print “Large” 
+ENDIF 
+If P > 50 THEN 
+Print “P Large” 
+ENDIF
+
+
+The flow chart is
+
+
+
+
+
+
+Statement Coverage (SC):
+To calculate Statement  Coverage, find out the shortest number of paths following 
+which all the nodes will be covered. Here by traversing through path 1A-2C-3D-E-4G-5H all 
+the nodes are covered. So by traveling through only one path all the nodes 12345 are covered, 
+so the Statement coverage in this case is 1.
+Branch Coverage (BC):
+To calculate Branch  Coverage, find out the minimum number of paths which will 
+ensure covering of all the edges. In this case there is no single path which will ensure coverage 
+of  all the edges  at one go.  By following paths 1A-2C-3D-E-4G-5H, maximum  numbers of 
+edges (A, C, D, E, G and H) are covered but edges B and F are left. To covers these edges we 3 www.ajoysinigha.info
+can follow  1A-2B-E-4F. By the combining the above two paths we can ensure of traveling 
+through all the paths. Hence Branch Coverage is 2. The aim is to cover all possible true/false 
+decisions.
+Path Coverage (PC):
+Path Coverage ensures covering of all the paths from start to end.
+All possible paths are-
+1A-2B-E-4F
+1A-2B-E-4G-5H
+1A-2C-3D-E-4G-5H
+1A-2C-3D-E-4F
+So path coverage is 4.
+Thus for the above example SC=1, BC=2 and PC=4.
+
+Memorize these….
+100% LCSAJ coverage will imply 100% Branch/Decision coverage
+100% Path coverage will imply 100% Statement coverage
+100% Branch/Decision coverage will imply 100% Statement coverage
+100% Path coverage will imply 100% Branch/Decision coverage
+Branch coverage and Decision coverage are same.
+
+*LCSAJ = Linear Code Sequence and Jump
