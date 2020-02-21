@@ -4,25 +4,60 @@ A Test Plan is a document that describes the objectives, scope, approach and foc
 Planning may be documented in the master test plan and in separate test plans for test levels such as system testing, acceptance testing etc.
 Contents of a Test Plan
 
-1. Introduction
+Test Plan Identifier
+Create a unique number with which to identify the plan. This number may include version information and the level of software it’s related to.
+Uniquely identifies the test plan & may include the version number
+
+References
+A list of documents that support the test plan. These might include a project plan, functional specifications, or corporate guidelines.
+
+Introduction
+A summary of the test plan, including the purpose of the the testing project and scope.
+Sets objectives, scope, goals, resource & budget constraints
 Description of this Document
 Related Documents
-Schedule and Milestones
-2. Resource Requirements
-Hardware
-Software
-Test Tools
-Staffing
+
+Test Items
+The systems and subsystems which will be tested.
+
+Features To Be Tested
+The individual features that will be tested within the systems/subsystems during the testing project.
+
+Features Not To Be Tested
+A list of features that will not be tested.
+
+Approach
+The overall strategy of how the tests will be performed.
+
+Pass/Fail Criteria
+Completion criteria for the test (minimum number of defects, percentage of passed tests).
+
+Suspension Criteria
+Specify what constitutes pausing the test. This might be when a certain number of defects are found.
+
+Test Deliverables
+The artifacts created by the testing team that are to be delivered upon completion of the test. These could be test cases, output from testing tools, and reports.
+
+Testing Tasks
+Any dependencies or remaining activities that must be done.
+
+Environmental Needs
+Any specific tools or hardware that are needed for the tests.
+
 Responsibilities
-Training
-3. Features To Be Tested / Test Approach
-New Features Testing
-Regression Testing
-4. Features Not To Be Tested
+Who’s in charge of the test team and project? This may include training, guiding the strategy, and identifying risks.
 
-5. Test Deliverables
+Staffing And Training Needs
+What resources are needed? Does anyone need additional or special training in order to conduct the test?
 
-6. Dependencies/Risks
+Schedule
+Details on when the testing will take place.
+
+Risks And Contingencies
+The overall risk of the project as it pertains to testing. This might be a lack of resources or a delayed delivering of the software from the development team.
+
+Approvals
+Who signs off on the testing project and approves it to proceed to the next step?
 
 7. Entrance/Exit Criteria
 Entry Criteria
