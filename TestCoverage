@@ -1,4 +1,5 @@
 Statement, Branch and Path coverage
+ # Statement Coverage (SC)<Branch Coverage (BC)<Path Coverage (PC)
 Statement Coverage:
 In this the  test case  is executed in such a way that every statement  of the code  is 
 executed at least once.
